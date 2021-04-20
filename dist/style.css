@@ -1,4 +1,6 @@
-/*
+body {
+    background-color: rgba(10, 10, 200, 0.5);
+}
 
 #pageTitle {
     color: darkblue;
@@ -7,11 +9,64 @@
     font-weight: bold;
     text-shadow: 3px 3px 2px darkblue;
     text-align: center;
+    padding: 30px 0 30px 0;
+    margin-top: 0px;
+}
+
+#header {
     background-image: url(https://secretlabinstitute.files.wordpress.com/2021/02/galaxy-brain-m-stage-3.png?w=1200);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: blue;
-    padding: 30px 0 30px 0;
+    background-color: rgba(0, 0, 255, 0.5);
 }
 
-*/
+#menuDiv {
+    display:flex;
+    justify-content: center;
+}
+
+#home, #menu, #contact {
+    background: rgba(0, 0, 0, 0);
+    width: 30%;
+    border-color: rgba(0, 0, 0, 0.4);
+    font-size: 28px;
+    color: cyan;
+}
+
+#buttonContent {
+    padding: 30px 5% 0 5%;
+}
+
+#pmain {
+    text-align: justify;
+}
+
+#menuItemsWrapper {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#menuItem1Wrapper, #menuItem2Wrapper {
+    margin-top: 20px;
+}
+
+#menuItem1Image {
+    width: 200px;
+    height: 300px;
+    background-image: url(https://m.media-amazon.com/images/I/51HNmNtf1jL._SL500_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#menuItem2Image {
+    width: 200px;
+    height: 300px;
+    background-image: url(https://laughingsquid.com/wp-content/uploads/2014/05/p6481_extra1_column_grid_12.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#menuText1, #menuText2 {
+    text-align: center;
+}
